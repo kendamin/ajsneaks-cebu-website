@@ -141,11 +141,13 @@
   .rv figcaption{display:grid;gap:2px;margin-top:auto}
   .rv figcaption b{font-size:15px}
   .rv figcaption span{color:var(--muted);font-size:13px}
+  .rv-more-text{color:#C9C8C2;font-size:15px;line-height:1.5}
   .rv-reply{font-size:13px;color:#C9C8C2;background:#ffffff08;border-radius:10px;padding:10px 12px}
   .rv-more{text-decoration:none;justify-content:flex-end;transition:border-color .2s,background .2s}
   .rv-more:hover{border-color:#E3242B66;background:linear-gradient(#1E1416,#0E0E11)}
   .rv-more strong{font:900 20px/1.1 var(--display);font-stretch:112%;text-transform:uppercase}
   .rv-more span{color:var(--muted);font-size:13px}
+  @media (min-width:900px){.rv-track{grid-auto-flow:row;grid-template-columns:repeat(3,1fr);overflow:visible}}
   @media (max-width:640px){.rv-track{grid-auto-columns:82%;margin-inline:calc(var(--gutter)*-1);padding-inline:var(--gutter);scroll-padding-inline:var(--gutter)}}
 
   /* ===== location ===== */
@@ -288,6 +290,7 @@
           </div>
           <div class="badges">
             <span class="badge"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 1 2.9 2.1 3.6-.1 1.1 3.4 2.9 2.1-1.1 3.4 1.1 3.4-2.9 2.1-1.1 3.4-3.6-.1L12 23l-2.9-2.1-3.6.1-1.1-3.4-2.9-2.1 1.1-3.4-1.1-3.4 2.9-2.1 1.1-3.4 3.6.1L12 1Zm-1.2 14.6 6-6-1.4-1.4-4.6 4.6-2.2-2.2-1.4 1.4 3.6 3.6Z"/></svg>Verified Facebook page</span>
+            <span class="badge">DTI-Registered</span>
             <span class="badge">100% recommend · 58 reviews</span>
           </div>
           </div>
@@ -315,7 +318,7 @@
       <div class="sec-head">
         <p class="eyebrow"><b>01</b> · Why AJSneaks</p>
         <h2 id="trust-title" class="split">Check us all you want.</h2>
-        <p>Buying shoes online only works if you trust the seller. Our page is verified, our buyers leave feedback, and we post proof of every transaction.</p>
+        <p>Buying shoes online only works if you trust the seller. We're DTI-registered, our page is verified, our buyers leave feedback, and we post proof of every transaction.</p>
       </div>
       <div class="stats">
         <div class="stat"><b><span class="count" data-to="18">18</span>K</b><span>Facebook followers</span></div>
@@ -337,7 +340,43 @@
         <div class="rv-track">
           <!-- Real Facebook recommendations only. Add more <figure class="rv"> cards here. -->
           <figure class="rv">
-            <div class="rv-stars" aria-label="Recommends">★ Recommends</div>
+            <div class="rv-stars">★ Recommends</div>
+            <blockquote>“Fast transaction from Cebu to Cavite in 1 day! 100% legit.”</blockquote>
+            <p class="rv-more-text">Very accommodating! Keep up the good work!</p>
+            <figcaption><b>Mac Lerrie M.</b><span>Facebook review</span></figcaption>
+          </figure>
+          <figure class="rv">
+            <div class="rv-stars">★ Recommends</div>
+            <blockquote>“Ang ganda ng shoes na nabili ko. Sulit at legit.”</blockquote>
+            <p class="rv-more-text">Mabilis kausap si seller at mabilis din maship. Will definitely order again. Try niyo na.</p>
+            <figcaption><b>Rhais B.</b><span>Facebook review</span></figcaption>
+          </figure>
+          <figure class="rv">
+            <div class="rv-stars">★ Recommends</div>
+            <blockquote>“Item was just as described.”</blockquote>
+            <p class="rv-more-text">Transaction was smooth and shipping was quick. Seller was nice and very accommodating. I would surely buy again when I find a pair I like.</p>
+            <figcaption><b>Just T.</b><span>Facebook review</span></figcaption>
+          </figure>
+          <figure class="rv">
+            <div class="rv-stars">★ Recommends</div>
+            <blockquote>“Solid fast delivery at ang dali kausap.”</blockquote>
+            <p class="rv-more-text">Super legit pa sa kabit. Kaya avail na rin kayo mga SirMam! Cebu to Luzon EZ.</p>
+            <figcaption><b>Renzo M.</b><span>Facebook review</span></figcaption>
+          </figure>
+          <figure class="rv">
+            <div class="rv-stars">★ Recommends</div>
+            <blockquote>“Responsive seller. Very quick transaction!”</blockquote>
+            <p class="rv-more-text">100% recommended!</p>
+            <figcaption><b>Jann Glyn G.</b><span>Facebook review</span></figcaption>
+          </figure>
+          <figure class="rv">
+            <div class="rv-stars">★ Recommends</div>
+            <blockquote>“AJSneaks the best!”</blockquote>
+            <p class="rv-more-text">Thanks dito sa napakacomfy na shoes. #NewBalance1080v13</p>
+            <figcaption><b>Jojo V.</b><span>Facebook review</span></figcaption>
+          </figure>
+          <figure class="rv">
+            <div class="rv-stars">★ Recommends</div>
             <blockquote>“Fast and easy to transact.”</blockquote>
             <figcaption><b>Steveenn</b><span>Facebook review · Jul 23, 2026</span></figcaption>
             <p class="rv-reply"><b>AJSneaks replied:</b> Salamat sa tiwala bossingg!!</p>
